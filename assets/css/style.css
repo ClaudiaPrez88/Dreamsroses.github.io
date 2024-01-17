@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Carrusel */
+.line {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 350px;
+    margin-left: 50%;
+}
+
+.carousel-item {
+    height: 550px;
+    background-position: 60%;
+    filter: grayscale(80%);
+    background-image: url(../img/bg-laptop.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.title_name {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(101, 101, 101, 0.5);
+    text-align: center;
+    
+}
+
+.cv_title {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    background: rgba(101, 101, 101, 0.5);
+    text-align: center;
+}
+
+.image_perfil{
+    border-radius: 10px;
+    filter: grayscale(10px);
+    width: 70%;
+}
+
+.resumen_paragraph, .formacion_list, .experiencia_lista{
+    line-height: 35px;
+    text-align: justify;
+}
+
+
+/* Vista portafolio */
+.banner_portafolio {
+    height: 550px;
+    filter: grayscale(80%);
+    background-image: url(../img/bg-portafolio.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.title_portafolio {
+    font-size: 4rem;
+    color: gray;
+    font-weight: 700;
+}
+
+
+.trabajos-button,
+.contacto-button {
+    text-decoration: none;
+    color: white;
+}
+
+/* Acerca de Mi */
+.quote-right {
+    width: 5%;
+    display: inline-block;
+    margin: 0 40px 70px 0;
+}
+
+.quote-left {
+    width: 5%;
+    display: inline-block;
+    margin: 0 0 0 40px;
+}
+
+.landing-anchor, .iguana-anchor, .cuppon-anchor{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .card-height{
+    height: 394px;
+  }
+  nav.navbar.navbar-expand-lg.bg-body-tertiary.fixed-top {
+    background: red !important;
+}
+  .contact_paragraph{
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+
+  /* Vista Send Mail */
+
+  .sendmail_landing, .back_portafolio{
+    text-decoration: none;
+    color: aliceblue;
+  }
+
